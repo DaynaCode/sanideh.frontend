@@ -1,0 +1,8 @@
+{
+  "files.exclude": {
+    "src/app/layout.js": true,
+    "src/app/page.js": true,
+    "src/app/not-found.js": true,
+    "src/app/favicon.ico": true
+  }
+}
