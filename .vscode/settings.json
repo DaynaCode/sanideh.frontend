@@ -1,8 +1,19 @@
 {
   "files.exclude": {
-    "src/app/layout.js": true,
-    "src/app/page.js": true,
-    "src/app/not-found.js": true,
-    "src/app/favicon.ico": true
+    "src/app/layout.jsx": true,
+    "src/app/page.jsx": true,
+    "src/app/not-found.jsx": true,
+    "src/app/favicon.ico": true,
+    ".gitignore": true,
+    "jsconfig.json": true,
+    "next.config.mjs": true,
+    "package-lock.json": true,
+    "package.json": false,
+    "postcss.config.mjs": true,
+    "README.md": true,
+    ".next": true,
+    "node_modules": false,
+    "src/app/fa/page.jsx": true,
+    // "src/app/en/page.jsx": true
   }
 }

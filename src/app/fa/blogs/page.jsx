@@ -1,8 +1,9 @@
 import React from "react";
+import Header from "@/components/fa/templates/header/Header";
 function page() {
   return (
     <>
-      <h1>صفحه اصلی</h1>
+      <Header />
     </>
   );
 }
