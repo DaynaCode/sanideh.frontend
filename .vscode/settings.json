@@ -8,12 +8,14 @@
     "jsconfig.json": true,
     "next.config.mjs": true,
     "package-lock.json": true,
-    "package.json": false,
+    "package.json": true,
     "postcss.config.mjs": true,
     "README.md": true,
     ".next": true,
-    "node_modules": false,
+    "node_modules": true,
     "src/app/fa/page.jsx": true,
-    // "src/app/en/page.jsx": true
+    "src/app/en/page.jsx": true,
+    "src/app/redux/Providers.js": true,
+    "public/fonts": true
   }
 }

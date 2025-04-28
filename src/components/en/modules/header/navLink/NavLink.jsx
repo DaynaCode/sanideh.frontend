@@ -9,7 +9,7 @@ function NavLink({ href, children }) {
   return (
     <Link
       href={href}
-      className={`min-w-fit font-Pinar font-semibold text-18 ${
+      className={`min-w-fit font-Roboto font-extrabold text-18 ${
         isActive
           ? "text-BW-14 sm:text-Secondary"
           : "hidden sm:inline-block text-BW-14"

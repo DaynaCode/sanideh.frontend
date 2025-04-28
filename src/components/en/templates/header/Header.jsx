@@ -1,6 +1,7 @@
 import { CaretDown, List, Phone } from "@phosphor-icons/react/dist/ssr";
 import React from "react";
 import NavLink from "../../modules/header/navLink/NavLink";
+import ChangeLanguage from "../../modules/header/changeLanguage/ChangeLanguage";
 
 function Header() {
   return (
@@ -9,11 +10,11 @@ function Header() {
         <div className="w-fit flex items-center gap-x-5">
           <List size={32} color="#f0f0f0" className="sm:hidden" />
           <div className="w-fit flex items-center gap-x-6">
-            <NavLink href={"/en/home"}>صفحه اصلی</NavLink>
-            <NavLink href={"/en/products"}>محصولات</NavLink>
-            <NavLink href={"/en/blogs"}>مقالات</NavLink>
-            <NavLink href={"/en/contact-us"}>تماس با ما </NavLink>
-            <NavLink href={"/en/home/#about-us"}>درباره ما</NavLink>
+            <NavLink href={"/en/home"}>Home</NavLink>
+            <NavLink href={"/en/products"}>Products</NavLink>
+            <NavLink href={"/en/blogs"}>Blogs</NavLink>
+            <NavLink href={"/en/contact-us"}>Contact us</NavLink>
+            <NavLink href={"/en/home/#about-us"}>About us</NavLink>
           </div>
         </div>
         <img
@@ -33,24 +34,7 @@ function Header() {
                 alt="language logo"
               />
 
-              <div className="absolute top-full left-1/2 translate-y-2 -translate-x-1/2 rounded-sm overflow-hidden">
-                <div className="w-34.5 h-11 bg-BW-white hover:bg-BW-14 border border-BW-13 flex justify-between items-center gap-x-5 px-5 cursor-pointer">
-                  <p className="font-Pinar text-16 text-BW-2">فارسی</p>
-                  <img
-                    className="rounded-full overflow-hidden"
-                    src="/images/header/language/ir.svg"
-                    alt="ir"
-                  />
-                </div>
-                <div className="w-34.5 h-11 bg-BW-white hover:bg-BW-14 border border-BW-13 flex justify-between items-center gap-x-5 -mt-0.25 px-5 cursor-pointer">
-                  <p className="font-Pinar text-16 text-BW-2">English</p>
-                  <img
-                    className="rounded-full overflow-hidden"
-                    src="/images/header/language/us.svg"
-                    alt="us"
-                  />
-                </div>
-              </div>
+            <ChangeLanguage />
             </div>
             <div className="flex items-center gap-x-2">
               <p className="font-Pinar font-semibold text-14 text-BW-14 ">
