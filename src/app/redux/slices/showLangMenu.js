@@ -5,12 +5,8 @@ const showLangMenu = createSlice({
   name: "showLangMenu",
   initialState,
   reducers: {
-    setShowLangMenu: (state) => {
-      state = true;
-    },
-    unsetShowLangMenu: (state) => {
-      state = false;
-    },
+    setShowLangMenu: (state) => true,
+    unsetShowLangMenu: (state) => false,
   },
 });
 

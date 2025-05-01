@@ -1,9 +1,10 @@
-import Header from "@/components/en/templates/header/Header";
+import Header from "@/components/templates/header/Header";
+import { language } from "@/utils/dataContainer/language/language";
 import React from "react";
 function page() {
   return (
     <>
-      <Header />
+      <Header lang={language.en} route={1} />
     </>
   );
 }

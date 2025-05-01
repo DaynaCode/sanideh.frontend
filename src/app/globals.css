@@ -3,84 +3,84 @@
 /* font-Pinar */
 @font-face {
   font-family: Pinar;
-  src: url(../../public/fonts/fa/Pinar-FD-Black.woff2) format("woff2");
+  src: url(../../public/fonts/fa/Pinar-FD-Black.woff2);
   font-weight: 900;
 }
 @font-face {
   font-family: Pinar;
-  src: url(../../public/fonts/fa/Pinar-FD-ExtraBold.woff2) format("woff2");
+  src: url(../../public/fonts/fa/Pinar-FD-ExtraBold.woff2);
   font-weight: 800;
 }
 @font-face {
   font-family: Pinar;
-  src: url(../../public/fonts/fa/Pinar-FD-Bold.woff2) format("woff2");
+  src: url(../../public/fonts/fa/Pinar-FD-Bold.woff2);
   font-weight: 700;
 }
 @font-face {
   font-family: Pinar;
-  src: url(../../public/fonts/fa/Pinar-FD-SemiBold.woff2) format("woff2");
+  src: url(../../public/fonts/fa/Pinar-FD-SemiBold.woff2);
   font-weight: 600;
 }
 @font-face {
   font-family: Pinar;
-  src: url(../../public/fonts/fa/Pinar-FD-Medium.woff2) format("woff2");
+  src: url(../../public/fonts/fa/Pinar-FD-Medium.woff2);
   font-weight: 500;
 }
 @font-face {
   font-family: Pinar;
-  src: url(../../public/fonts/fa/Pinar-FD-Regular.woff2) format("woff2");
+  src: url(../../public/fonts/fa/Pinar-FD-Regular.woff2);
   font-weight: 400;
 }
 @font-face {
   font-family: Pinar;
-  src: url(../../public/fonts/fa/Pinar-FD-Light.woff2) format("woff2");
+  src: url(../../public/fonts/fa/Pinar-FD-Light.woff2);
   font-weight: 300;
 }
 /* font-Pinar */
 /* font-Roboto */
 @font-face {
   font-family: Roboto;
-  src: url(../../public/fonts/en/Roboto-Black.ttf) format("ttf");
+  src: url(../../public/fonts/en/Roboto-Black.ttf);
   font-weight: 900;
 }
 @font-face {
   font-family: Roboto;
-  src: url(../../public/fonts/en/Roboto-ExtraBold.ttf) format("ttf");
+  src: url(../../public/fonts/en/Roboto-ExtraBold.ttf);
   font-weight: 800;
 }
 @font-face {
   font-family: Roboto;
-  src: url(../../public/fonts/en/Roboto-Bold.ttf) format("ttf");
+  src: url(../../public/fonts/en/Roboto-Bold.ttf);
   font-weight: 700;
 }
 @font-face {
   font-family: Roboto;
-  src: url(../../public/fonts/en/Roboto-SemiBold.ttf) format("ttf");
+  src: url(../../public/fonts/en/Roboto-SemiBold.ttf);
   font-weight: 600;
 }
 @font-face {
   font-family: Roboto;
-  src: url(../../public/fonts/en/Roboto-Medium.ttf) format("ttf");
+  src: url(../../public/fonts/en/Roboto-Medium.ttf);
   font-weight: 500;
 }
 @font-face {
   font-family: Roboto;
-  src: url(../../public/fonts/en/Roboto-Regular.ttf) format("ttf");
+  src: url(../../public/fonts/en/Roboto-Regular.ttf);
   font-weight: 400;
 }
 @font-face {
   font-family: Roboto;
-  src: url(../../public/fonts/en/Roboto-Light.ttf) format("ttf");
+  src: url(../../public/fonts/en/Roboto-Light.ttf);
   font-weight: 300;
 }
 @font-face {
   font-family: Roboto;
-  src: url(../../public/fonts/en/Roboto-ExtraLight.ttf) format("ttf");
+  src: url(../../public/fonts/en/Roboto-ExtraLight.ttf);
   font-weight: 200;
 }
 @font-face {
   font-family: Roboto;
-  src: url(../../public/fonts/en/Roboto-Thin.ttf) format("ttf");
+  src: url(../../public/fonts/en/Roboto-Thin.ttf);
   font-weight: 100;
 }
 /* font-Roboto */
@@ -89,7 +89,7 @@
   /* color */
   --color-primary: #29574a;
   --color-Secondary: #d0a767;
-  --color-Secondary-2: #BA965C;
+  --color-Secondary-2: #ba965c;
   --color-background: #f7f7f7;
   --color-BW-Black: #000;
   --color-BW-1: #0e0e0e;
