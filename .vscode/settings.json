@@ -16,6 +16,6 @@
     "src/app/fa/page.jsx": true,
     "src/app/en/page.jsx": true,
     "src/app/redux/Providers.js": true,
-    "public/fonts": true
+    // "public/fonts": true
   }
 }

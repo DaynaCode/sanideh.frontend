@@ -29,7 +29,7 @@ function Header({ lang = language.fa, route = 0 }) {
             <NavLink
               key={item.href}
               lang={lang}
-              href={`/${lang}${item.href}`}
+              href={item.href}
               isActive={route === index}
             >
               {item.title[lang]}

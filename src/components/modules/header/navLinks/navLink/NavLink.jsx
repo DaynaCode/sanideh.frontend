@@ -8,7 +8,7 @@ function NavLink({
 }) {
   return (
     <Link
-      href={href}
+      href={`/${lang}${href}`}
       className={`min-w-fit ${language.font[lang]} font-extrabold text-18 ${
         isActive ? "text-Secondary" : "text-BW-14"
       }`}

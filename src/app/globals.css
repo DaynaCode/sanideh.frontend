@@ -84,7 +84,13 @@
   font-weight: 100;
 }
 /* font-Roboto */
-
+/* font-BebasNeue */
+@font-face {
+  font-family: BebasNeue;
+  src: url(../../public/fonts/en/Bebas_Neue/BebasNeue-Regular.ttf);
+  font-weight: 400;
+}
+/* font-BebasNeue */
 @theme {
   /* color */
   --color-primary: #29574a;
@@ -125,6 +131,8 @@
   --text-40: 2.5rem;
   --text-44: 2.75rem;
   --text-48: 3rem;
+  --text-52: 3.25rem;
+  --text-56: 3.5rem;
   /* font size */
 
   /* responsive */
@@ -138,5 +146,6 @@
   /* font */
   --font-Pinar: Pinar;
   --font-Roboto: Roboto;
+  --font-BebasNeue: BebasNeue;
   /* font */
 }
