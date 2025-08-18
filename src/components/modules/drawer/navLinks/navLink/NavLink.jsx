@@ -1,7 +1,7 @@
 "use client";
 import { setPopUp } from "@/app/redux/slices/showPopUp";
 import { language } from "@/utils/dataContainer/language/language";
-import { popUp } from "@/utils/dataContainer/popUp/popUp";
+import { popUp } from "@/utils/statesContainer/popUp/popUp";
 import Link from "next/link";
 import { useDispatch } from "react-redux";
 function NavLink({

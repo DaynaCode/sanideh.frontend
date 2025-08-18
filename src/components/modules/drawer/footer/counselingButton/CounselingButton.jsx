@@ -2,7 +2,7 @@
 import { setPopUp } from "@/app/redux/slices/showPopUp";
 import { counselingButton } from "@/utils/dataContainer/counselingButton/counselingButton";
 import { language } from "@/utils/dataContainer/language/language";
-import { popUp } from "@/utils/dataContainer/popUp/popUp";
+import { popUp } from "@/utils/statesContainer/popUp/popUp";
 import Link from "next/link";
 import React from "react";
 import { useDispatch } from "react-redux";

@@ -1,6 +1,6 @@
 "use client";
 import { setPopUp } from "@/app/redux/slices/showPopUp";
-import { popUp } from "@/utils/dataContainer/popUp/popUp";
+import { popUp } from "@/utils/statesContainer/popUp/popUp";
 import { List } from "@phosphor-icons/react/dist/ssr";
 import React from "react";
 import { useDispatch } from "react-redux";

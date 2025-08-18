@@ -1,12 +1,11 @@
 "use client";
-import { setPopUp } from "@/app/redux/slices/showPopUp";
 import Header from "@/components/modules/drawer/header/Header";
 import NavLink from "@/components/modules/drawer/navLinks/navLink/NavLink";
 import NavLinks from "@/components/modules/drawer/navLinks/NavLinks";
 import Filter from "@/components/modules/global/filter/Filter";
 import { language } from "@/utils/dataContainer/language/language";
 import { navLinks } from "@/utils/dataContainer/navLinks/navLinks";
-import { popUp } from "@/utils/dataContainer/popUp/popUp";
+import { popUp } from "@/utils/statesContainer/popUp/popUp";
 import React from "react";
 import { useSelector } from "react-redux";
 import { usePathname } from "next/navigation";
