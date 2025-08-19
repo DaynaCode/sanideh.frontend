@@ -1,3 +1,4 @@
+import FaqSection from "@/components/templates/faqSection/FaqSection";
 import Header from "@/components/templates/header/Header";
 import HeroSection from "@/components/templates/heroSection/HeroSection";
 import { language } from "@/utils/dataContainer/language/language";
@@ -7,6 +8,7 @@ function page() {
     <>
       <Header lang={language.fa} />
       <HeroSection lang={language.fa} />
+      <FaqSection lang={language.fa} />
     </>
   );
 }

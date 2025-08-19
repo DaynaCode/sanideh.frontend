@@ -134,13 +134,18 @@
   --text-36: 2.25rem;
   --text-40: 2.5rem;
   --text-44: 2.75rem;
+  --text-46: 2.875rem;
   --text-48: 3rem;
   --text-52: 3.25rem;
   --text-56: 3.5rem;
+  --text-72: 4.5rem;
+  --text-74: 4.625rem;
   --text-80: 5rem;
   --text-84: 5.25rem;
   --text-86: 5.375rem;
   --text-108: 6.75rem;
+  --text-164: 10.25rem;
+  --text-166: 10.375rem;
 
   /* font size */
 
