@@ -5,7 +5,7 @@ import { language } from "@/utils/dataContainer/language/language";
 export default async function Layout({ children }) {
   return (
     <html lang="fa" dir="rtl">
-      <body className="w-full h-screen relative bg-background">
+      <body className="w-full overflow-x-hidden relative bg-background">
         {children}
         <Footer />
         <PopUps lang={language.fa} />

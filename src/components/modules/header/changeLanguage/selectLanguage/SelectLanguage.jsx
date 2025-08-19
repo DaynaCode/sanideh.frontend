@@ -9,7 +9,7 @@ function SelectLanguage({ children }) {
     <div
       className={`${
         showSelectLanguageMenu || "hidden"
-      } absolute top-full left-1/2 translate-y-2 -translate-x-1/2 rounded-sm overflow-hidden`}
+      } absolute z-10 top-full left-1/2 translate-y-2 -translate-x-1/2 rounded-sm overflow-hidden`}
     >
       {children}
     </div>
