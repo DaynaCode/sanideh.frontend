@@ -1,6 +1,6 @@
 "use client";
-import Question from "@/components/modules/faqSection/question/Question";
-import SidePicture from "@/components/modules/faqSection/sidePicture/SidePicture";
+import Question from "@/components/modules/home/faqSection/question/Question";
+import SidePicture from "@/components/modules/home/faqSection/sidePicture/SidePicture";
 import { FAQs } from "@/utils/dataContainer/FAQ/FAQ";
 
 import { language } from "@/utils/dataContainer/language/language";

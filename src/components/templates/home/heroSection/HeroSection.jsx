@@ -1,10 +1,10 @@
-import BoldText from "@/components/modules/heroSection/boldText/BoldText";
-import NamePrefix from "@/components/modules/heroSection/namePrefix/NamePrefix";
-import ProductsLink from "@/components/modules/heroSection/productsLink/ProductsLink";
-import PureName from "@/components/modules/heroSection/pureName/PureName";
-import RequestConsultationLink from "@/components/modules/heroSection/requestConsultationLink/RequestConsultationLink";
-import SidePicture from "@/components/modules/heroSection/sidePicture/SidePicture";
-import SolidText from "@/components/modules/heroSection/solidText/SolidText";
+import BoldText from "@/components/modules/home/heroSection/boldText/BoldText";
+import NamePrefix from "@/components/modules/home/heroSection/namePrefix/NamePrefix";
+import ProductsLink from "@/components/modules/home/heroSection/productsLink/ProductsLink";
+import PureName from "@/components/modules/home/heroSection/pureName/PureName";
+import RequestConsultationLink from "@/components/modules/home/heroSection/requestConsultationLink/RequestConsultationLink";
+import SidePicture from "@/components/modules/home/heroSection/sidePicture/SidePicture";
+import SolidText from "@/components/modules/home/heroSection/solidText/SolidText";
 import React from "react";
 
 function HeroSection({ lang = language.fa }) {

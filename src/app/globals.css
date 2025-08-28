@@ -113,8 +113,11 @@
   --color-BW-13: #e9e9e9;
   --color-BW-14: #f0f0f0;
   --color-BW-white: #fff;
+  --color-text-100: #4c4a4a;
+  --color-text-90: #615f5f;
 
   --color-gradient-gold2: #563d15;
+  --color-gradient-primary2: #59bda1;
   /* color */
 
   /* font size */
@@ -129,6 +132,7 @@
   --text-22: 1.375rem;
   --text-24: 1.5rem;
   --text-28: 1.75rem;
+  --text-30: 1.875rem;
   --text-32: 2rem;
   --text-34: 2.125rem;
   --text-36: 2.25rem;
@@ -138,6 +142,7 @@
   --text-48: 3rem;
   --text-52: 3.25rem;
   --text-56: 3.5rem;
+  --text-64: 4rem;
   --text-72: 4.5rem;
   --text-74: 4.625rem;
   --text-80: 5rem;
