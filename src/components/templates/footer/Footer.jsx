@@ -11,7 +11,7 @@ function Footer({ lang = language.fa }) {
     <div className="w-full h-fit relative">
       <Background />
       <div className="w-full aspect-393/263 sm:aspect-144/35 absolute bottom-0 left-0 flex flex-col justify-between items-center ">
-        <div className="w-5/6 sm:container mx-auto flex justify-between">
+        <div className="container mx-auto px-4 flex justify-between">
           <ContactUs lang={lang} />
           <NavLinks lang={lang} />
           <MapPin />

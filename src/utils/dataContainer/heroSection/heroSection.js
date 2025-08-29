@@ -7,10 +7,10 @@ export const bold_Text = {
   en: "we're with you every step of the way",
 };
 export const request_Consultation = {
-  fa: { title: "درخواست مشاوره", href: "#" },
-  en: { title: "Talk to sales", href: "#" },
+  href: "/home#RequestConsultation",
+  title: { fa: "درخواست مشاوره", en: "Talk to sales" },
 };
 export const Products = {
-  fa: { title: "محصولات ما", href: "#" },
-  en: { title: "Products", href: "#" },
+  href: "/Products",
+  title: { fa: "محصولات ما", en: "Products" },
 };

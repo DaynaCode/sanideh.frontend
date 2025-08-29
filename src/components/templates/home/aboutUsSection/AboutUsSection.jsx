@@ -7,7 +7,10 @@ import React from "react";
 
 function AboutUsSection({ lang = language.fa }) {
   return (
-    <div className="w-5/6 sm:container mx-auto flex gap-x-13 mt-9 sm:mt-16.25">
+    <div
+      id="about-us"
+      className=" sm:container mx-auto px-4 flex gap-x-13 mt-9 sm:mt-16.25"
+    >
       <SidePicture />
       <div className="flex flex-1 flex-col sm:pt-16.25">
         <SectionsTitle lang={lang} />

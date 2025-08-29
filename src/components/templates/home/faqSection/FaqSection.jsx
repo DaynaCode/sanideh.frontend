@@ -9,7 +9,7 @@ import React, { useState } from "react";
 function FaqSection({ lang = language.fa }) {
   const [questionSelected, setQuestionSelected] = useState(0);
   return (
-    <div className="w-5/6 sm:container pt-14 sm:pt-20 h-fit mx-auto mb-22.5 sm:mb-35 flex flex-col sm:flex-row sm:ltr:flex-row-reverse sm:justify-between items-center gap-y-8">
+    <div className="container px-4 pt-14 sm:pt-20 h-fit mx-auto mb-22.5 sm:mb-35 flex flex-col sm:flex-row sm:ltr:flex-row-reverse sm:justify-between items-center gap-y-8">
       <SidePicture lang={lang} />
       <div className="w-full h-full sm:w-6/12 flex flex-col gap-y-3">
         {FAQs.map((item, index) => {

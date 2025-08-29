@@ -10,7 +10,7 @@ function NavLinks({ lang = language.fa }) {
       {navLinks.map(({ href, title }) => {
         return (
           <li key={href}>
-            <Link href={href}>
+            <Link href={`/${lang}${href}`}>
               <p
                 className={`${font} text-12 sm:text-16 font-medium text-BW-white`}
               >

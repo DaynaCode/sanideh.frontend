@@ -4,8 +4,8 @@ import { language } from "@/utils/dataContainer/language/language";
 
 export default async function Layout({ children }) {
   return (
-    <html lang="en">
-      <body className="w-full overflow-x-hidden relative bg-background">
+    <html lang="en" dir="ltr" className="scroll-smooth">
+      <body className="w-dvw overflow-x-hidden relative bg-background">
         {children}
         <Footer lang={language.en} />
         <PopUps lang={language.en} />
