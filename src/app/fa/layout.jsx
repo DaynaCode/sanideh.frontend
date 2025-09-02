@@ -5,7 +5,7 @@ import { language } from "@/utils/dataContainer/language/language";
 export default async function Layout({ children }) {
   return (
     <html lang="fa" dir="rtl" className="scroll-smooth">
-      <body className="w-dvw overflow-x-hidden relative bg-background">
+      <body className="w-dvw overflow-x-hidden relative bg-background select-none">
         {children}
         <Footer />
         <PopUps lang={language.fa} />

@@ -170,3 +170,13 @@
   --font-BebasNeue: BebasNeue;
   /* font */
 }
+
+@layer utilities {
+  .scrollbar-hidden {
+    -ms-overflow-style: none; /* IE و Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none; /* Chrome, Safari و Opera */
+  }
+}
